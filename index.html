@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Harry potter quiz">
+  <title>Harry Potter Quiz App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Harry Potter Quiz(landing page)</h1>
+  </header>
+  <main>
+      <section class='start-page'>
+        <p>This quiz will measure your knowledge of harry potter trivia!</p>
+        <button class='start-btn'>Start game</button>
+      </section>
+      <section class='game-page'>
+        <h2>Harry Potter Quiz(game page)</h2>
+          <form>
+              <fieldset>
+                  <div class='question'>
+                      <p class='question1'>How many obstacles were omitted in the first book?</p>
+                  </div>
+                  <div class='answers'>
+                      <ul>
+                         <li>a-</li> 
+                         <li>b-</li>
+                         <li>c-</li>
+                         <li>d-</li>
+                      </ul>
+                  </div>
+                  <button type='submit' class='submit'>Submit</button>
+              </fieldset>
+          </form>
+      </section>
+      <section class='results-page'>
+          <p class='score'>Your score is 0 out of 7(results page)</p>
+          <button class='restart'>Restart</button>
+      </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
